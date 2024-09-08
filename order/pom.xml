@@ -46,6 +46,11 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.vertex_solutions</groupId>
             <artifactId>inventory</artifactId>
             <version>${project.parent.version}</version>
@@ -53,6 +58,11 @@
         <dependency>
             <groupId>com.vertex_solutions</groupId>
             <artifactId>product</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.vertex_solutions</groupId>
+            <artifactId>base</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
