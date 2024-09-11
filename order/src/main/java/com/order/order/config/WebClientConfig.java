@@ -16,13 +16,13 @@ public class WebClientConfig {
 
     @Bean
     public WebClient inventoryWebClient() {
-        return webClientBuilder().baseUrl("http://inventory:8080/api/v1").build();
+        return webClientBuilder().baseUrl("http://apigateway:8080/api/v1").build();
     }
 
 
     @Bean
     public WebClient productWebClient() {
-        return webClientBuilder().baseUrl("http://product/api/v1").build();
+        return webClientBuilder().baseUrl("http://apigateway/api/v1").build();
     }
 
 
