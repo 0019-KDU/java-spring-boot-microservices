@@ -2,6 +2,8 @@
 
 This project illustrates a simple microservices architecture designed to efficiently handle user interactions and data management. The architecture utilizes a range of technologies to provide scalability, resilience, and high availability through a combination of synchronous and asynchronous communication.
 
+![Diagram](images/digram.png)
+
 ## Components
 
 ### User
@@ -103,4 +105,4 @@ Contributions to enhance the architecture, add features, or improve documentatio
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-![Diagram](images/diagram.png)
+
